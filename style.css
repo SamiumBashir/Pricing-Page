@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 70px 60px;
+  margin-top: 80px;
+  background-color: #f8fafe;
+  margin-bottom: 80px;
+}
+body {
+  font-weight: 600;
+  line-height: 1.6;
+  background-color: #27264b;
+  color: #433f63;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.main-card {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+.card h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #d2ddf3;
+  color: #000000;
+}
+.card-pro h2 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(92, 9, 121, 0.34375) 0%,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(71, 122, 255, 1) 36%,
+    rgba(123, 56, 255, 1) 85%,
+    rgba(167, 0, 255, 0.8267045454545454) 99%
+  );
+  color: #000000;
+}
+.card-enterprise h2 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(92, 9, 121, 0.34375) 0%,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(71, 122, 255, 1) 0%,
+    rgba(154, 152, 165, 1) 57%,
+    rgba(206, 170, 109, 1) 100%,
+    rgba(255, 188, 56, 1) 100%,
+    rgba(167, 0, 255, 0.8267045454545454) 100%
+  );
+  color: #000000;
+}
+.card .price{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.card .price sup{
+    font-size: 18px;
+    position: relative;
+    left: -5px;
+}
+.card .price span{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.card .main-text{
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.price {
+  font-size: xx-large;
+  font-weight: lighter;
+  text-align: center;
+  background-color: #f8fafe;
+  color: #000000;
+}
+.price-info {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+    display: block;
+    background-color: #fff;
+    color: #030303;
+    border: 1px solid #27264b;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: #070553;
+    color: #fff;
+}
+@media (max-width: 768px){
+  .main-card {
+    flex-direction: column;
+  }
+  .container {
+    margin: 2rem;
+  }
+}
+
